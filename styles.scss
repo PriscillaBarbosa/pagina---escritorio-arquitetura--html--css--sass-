@@ -10,6 +10,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: $secondary-color;
+    
+    background-size: cover; // Garante que a imagem cubra toda área
+    background-position: center; //Centraliza a imagem
+    background-repeat: no-repeat; //Impede a repetição da imagem
+    height: 100vh;
 }
 
 //Header
