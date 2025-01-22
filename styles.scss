@@ -1,0 +1,43 @@
+//Variáveis
+$primary-color: #333;
+$secondary-color: #f4f4f4;
+$text-color: white;
+$font-stack: 'Arial', sans-serif;
+
+//Estilos globais
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    background-color: $secondary-color;
+}
+
+//Header
+header{
+    background-color: $primary-color;
+    color: $text-color;
+    text-align: center;
+}
+
+//Navegação
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+        display: inline;
+        margin: 0 15px;
+
+        a {
+            color: $text-color;
+            text-decoration: none;
+        }
+    }
+}
+//Rodapé
+footer {
+    background-color: $primary-color;
+    color: $text-color;
+    text-align: center;
+}
+
