@@ -1,16 +1,16 @@
 //Variáveis
-$primary-color: #333;
-$secondary-color: #f4f4f4;
-$text-color: white;
+$primary-color: #cfe0d1;
+$secondary-color: #2e4b35;
+$text-color: rgb(14, 22, 17);
 $font-stack: 'Arial', sans-serif;
+
 
 //Estilos globais
 body {
     font-family: $font-stack;
     margin: 0;
     padding: 0;
-    background-color: $secondary-color;
-    
+    background-image: url(image/image1.jpg);    
     background-size: cover; // Garante que a imagem cubra toda área
     background-position: center; //Centraliza a imagem
     background-repeat: no-repeat; //Impede a repetição da imagem
@@ -36,6 +36,14 @@ nav ul {
         a {
             color: $text-color;
             text-decoration: none;
+            padding: 10px;
+            transition: color 0.3s, background-color 0.3s; //suavizar transição
+        
+            &:hover {
+                color: $primary-color; //cor do texto ao passar o mouse
+                //background-color: rgba(255, 255, 255, 0.2); //fundo ao passar o mouse
+                //border-radius: 5px; //bordas arredondadas
+            }
         }
     }
 }

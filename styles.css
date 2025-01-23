@@ -2,7 +2,7 @@ body {
   font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-image: url(image/image1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,8 +10,8 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: #cfe0d1;
+  color: rgb(14, 22, 17);
   text-align: center;
 }
 
@@ -24,13 +24,18 @@ nav ul li {
   margin: 0 15px;
 }
 nav ul li a {
-  color: white;
+  color: rgb(14, 22, 17);
   text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+nav ul li a:hover {
+  color: #cfe0d1;
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #cfe0d1;
+  color: rgb(14, 22, 17);
   text-align: center;
 }
 
